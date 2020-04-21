@@ -1,0 +1,20 @@
+site_name: nodemcu中文文档
+site_description: nodemcu是一个超简单的物联网开发平台
+repo_url: https://github.com/nodemcu/nodemcu-firmware/
+
+# 主题配置
+theme:
+  name: "readthedocs"
+strict: false
+
+markdown_extensions:
+#http://pythonhosted.org/Markdown/extensions/admonition.html
+- admonition:
+- toc:
+    permalink: True
+
+pages:
+- nodemcu简介: 'index.md'
+- 基础知识:
+  - 如何构建固件: 'build-firmare.md'
+
