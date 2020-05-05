@@ -15,6 +15,10 @@ markdown_extensions:
 
 pages:
 - nodemcu简介: 'index.md'
+  - nodemcu开发板: 'dev-module.md'
 - 基础知识:
   - 如何构建固件: 'build-firmare.md'
+  - 如何烧写固件: 'flash-firmare.md'
+- 常用代码片段:
+  - 智能开关: 'smart-switch.md'
 
